@@ -1,0 +1,90 @@
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1120px;
+    padding: 0 25px;
+    margin-inline: auto;
+    z-index: 2;
+}
+.navbar ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+.navbar ul li > * {
+    letter-spacing: 2.2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar__btn{
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    font-size: 12px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.desktop, .desktop > *{
+    display: none;
+}
+.mobile__menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    list-style: none;
+    transition: 500ms ease-in-out;
+    z-index: 1;
+   row-gap: 30px;
+   left: 0;
+
+}
+.mobile__menu > *{
+    margin-inline: auto;
+    letter-spacing: 2.2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.inactive{
+    transform: translateY(100px);
+
+}
+.active{    
+    transform: translateY(-100px);
+
+}
+
+@media screen and (min-width:720px) {
+    .desktop, .desktop > *{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    ul.desktop{
+        display: flex;
+    }
+}

@@ -1,0 +1,112 @@
+.footer{
+    min-height: 250px;
+    background-color: black;
+
+}
+.container{
+    display: flex;
+    padding: 50px 30px;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.left, .left__container{
+    display: flex;
+
+}
+.left__container{
+    flex-direction: column;
+}
+.footer__left_social{
+    display: flex;
+    column-gap: 8px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: auto;
+    margin-right: auto;
+
+}
+.footer__left_social > li{
+    background-repeat: no-repeat;
+    background-position: left;
+    max-width: 25px;
+    min-height: 25px;
+    min-width: 25px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+}
+.footer__left_social li:nth-child(1){
+    background-image: url("/images/white-FB.svg");
+}
+.footer__left_social li:nth-child(1):hover{
+    background-image: url("/images/facebook.svg");
+}
+.footer__left_social li:nth-child(2){
+    background-image: url("/images/white-YT.svg");
+}
+.footer__left_social li:nth-child(2):hover{
+    background-image: url("/images/youtube.svg");
+}
+.footer__left_social li:nth-child(3){
+    background-image: url("/images/white-Tw.svg");
+}
+.footer__left_social li:nth-child(3):hover{
+    background-image: url("/images/twitter.svg");
+}
+.footer__left_social li:nth-child(4){
+    background-image: url("/images/white-Pin.svg");
+}
+.footer__left_social li:nth-child(4):hover{
+    background-image: url("/images/pinterest.svg");
+}
+.footer__left_social li:nth-child(5){
+    background-image: url("/images/white-Insta.svg");
+}
+.footer__left_social li:nth-child(5):hover{
+    background-image: url("/images/instagram.svg");
+}
+.footer__left_navbar ul > li{
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2.2px;
+    cursor: pointer;
+}
+.footer__left_navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.copyright{
+    color: var(--gray);
+    margin-top: auto;
+}
+@media screen and (max-width:670px) {
+    .container, .left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 15px;
+    }  
+    .footer__left_social{
+        padding: 40px 0;
+        margin: 0 auto;
+    }  
+
+    .footer__left_navbar ul{
+        padding-bottom: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .right{
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
+}
