@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import ArticleCard from '../components/enviroment/ArticleCard'
 import styles from '../styles/Home.module.css'
-import Footer from "../components/Footer"
 import Presentation from '../components/enviroment/Presentation'
+import Grid from '../components/enviroment/Grid'
 export default function Home() {
   return (
     <div>
@@ -30,6 +30,13 @@ export default function Home() {
       text="Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it." 
       img='/images/designed-for-everyone.jpg'
       />
+      <Grid>
+        <ArticleCard />
+        <ArticleCard />
+        <ArticleCard />
+        <ArticleCard />
+      </Grid>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

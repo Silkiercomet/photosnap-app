@@ -1,6 +1,5 @@
 import React from 'react'
 import style from "../../styles/components/presentation.module.css"
-import Image from "next/image"
 import ArrowButton from '../microComponents/ArrowButton'
 const Presentation = ({header = "placeholder", text = 'lorem ipsum', isBlack = true, img = "/images/create-and-share.jpg", reverse = false}) => {
   return (
