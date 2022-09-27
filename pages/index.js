@@ -3,6 +3,7 @@ import ArticleCard from '../components/enviroment/ArticleCard'
 import styles from '../styles/Home.module.css'
 import Presentation from '../components/enviroment/Presentation'
 import Grid from '../components/enviroment/Grid'
+import InfoCard from '../components/enviroment/InfoCard'
 export default function Home() {
   return (
     <div>
@@ -36,6 +37,13 @@ export default function Home() {
         <ArticleCard />
         <ArticleCard />
       </Grid>
+      <div style={{maxWidth : "1800px", margin: "40px auto"}}>
+        <Grid>
+          <InfoCard />
+          <InfoCard />
+          <InfoCard />
+        </Grid>
+      </div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
