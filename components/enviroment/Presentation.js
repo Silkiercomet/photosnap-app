@@ -5,7 +5,7 @@ const Presentation = ({header = "placeholder", text = 'lorem ipsum', isBlack = t
   return (
     <div className={`${style.presentation} ${reverse && style.reverse}`}>
         <article className={`${style.presentation__text} ${isBlack ? style.black : style.white}`}>
-            <h1 >{header}</h1>
+            <h1>{header}</h1>
             <p className={`${isBlack ? style.gray : style.opaqueBlack}`}>{text}</p>
             <ArrowButton isBlack={isBlack ? false : true} text="GET AN INVITE" />
         </article>
