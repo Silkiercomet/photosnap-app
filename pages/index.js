@@ -3,7 +3,9 @@ import ArticleCard from "../components/enviroment/ArticleCard";
 import Presentation from "../components/enviroment/Presentation";
 import Grid from "../components/enviroment/Grid";
 import InfoCard from "../components/enviroment/InfoCard";
-export default function Home() {
+import { getData, getPath } from "../utils/functions"
+
+export default function Home(props) {
   return (
     <>
       <Head>
@@ -30,19 +32,30 @@ export default function Home() {
       />
       <main>
         <Grid>
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
+          {props.articles.map((e,i) => <ArticleCard key={i} img={e.image} author = {e.Author} title = {e.title}/>)}
         </Grid>
       </main>
       <div style={{ maxWidth: "1800px", margin: "40px auto" }}>
         <Grid>
-          <InfoCard />
-          <InfoCard />
-          <InfoCard />
+          {props.info.map((e,i) => <InfoCard img={e.image} title={e.title} text={e.text} />)}
         </Grid>
       </div>
     </>
   );
+}
+
+export async function getStaticProps(context) {
+  const filepath = getPath()
+  const data = getData(filepath)
+
+  const InfoCard = data.info.slice(0,3)
+  const articleCard = data.articles.slice(0,4)
+
+
+  return {
+    props: {
+      articles:articleCard,
+      info: InfoCard
+    }
+  }
 }

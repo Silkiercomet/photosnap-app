@@ -1,179 +1,211 @@
-{"json" : [
-    {
-      "id":"e1",
-      "title": "The Mountains",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 16th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author": "John Appleseed",
-      "isFeatured": true
-    },
-    {
-      "id": "e2",
-      "title": " Sunset Cityscapes",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "April 14th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Benjamin Cruz",
-      "isFeatured": true
-    },
-    {
-      "id": "e3",
-      "title": "18 Days Voyage",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "April 11th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Alexei Borodin",
-      "isFeatured": true
-    },
-    {
-      "id": "e4",
-      "title": "Architecturals",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "April 9th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Samantha Brooke",
-      "isFeatured": true
-    },
-    {
-      "id":"e5",
-      "title": "World Tour 2019",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "April 7th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author": "Timothy Wagner",
-      "isFeatured": true
-    },
-    {
-      "id": "e6",
-      "title": "Unforseen Corners",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "April 3rd 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"William Malcolm",
-      "isFeatured": true
-    },
-    {
-      "id": "e7",
-      "title": "King on Africa: Part II",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 29th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Tim Hillenburg",
-      "isFeatured": true
-    },
-    {
-      "id": "e8",
-      "title": "The Trip to Nowhere",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "April 21st 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Felicia Rourke",
-      "isFeatured": true
-    },
-    {
-      "id":"e9",
-      "title": "Rage of The Sea",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 19th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author": "Mohammed Abdul",
-      "isFeatured": true
-    },
-    {
-      "id": "e10",
-      "title": "Running Free",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 16th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Michelle",
-      "isFeatured": true
-    },
-    {
-      "id": "e11",
-      "title": "Behind the Waves",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 11th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Lamarr Wilson",
-      "isFeatured": true
-    },
-    {
-      "id": "e12",
-      "title": "Calm Waters",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 9th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Samantha Brooke",
-      "isFeatured": true
-    },
-    {
-      "id":"e13",
-      "title": "The Milky Way",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 5th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author": "Benjamin Cruz",
-      "isFeatured": true
-    },
-    {
-      "id": "e14",
-      "title": "Night at The Dark Forest",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 4th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Mohammed adbull",
-      "isFeatured": true
-    },
-    {
-      "id": "e15",
-      "title": "Somwarpet's Beauty",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "March 1st 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"Wilson",
-      "isFeatured": true
-    },
-    {
-      "id": "e16",
-      "title": "Land of Dreams",
-      "description":
-        "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
-      "location": "My Street 12, 10115 Broke City",
-      "date": "February 25th 2020",
-      "image": "images/extrovert-event.jpg",
-      "Author":"William Malcolm",
-      "isFeatured": true
-    }
+{"articles" : [
+  {
+    "id":"e1",
+    "title": "The Mountains",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 16th 2020",
+    "image": "images/mountains.jpg",
+    "Author": "John Appleseed",
+    "isFeatured": true
+  },
+  {
+    "id": "e2",
+    "title": " Sunset Cityscapes",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "April 14th 2020",
+    "image": "images/cityscapes.jpg",
+    "Author":"Benjamin Cruz",
+    "isFeatured": true
+  },
+  {
+    "id": "e3",
+    "title": "18 Days Voyage",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "April 11th 2020",
+    "image": "images/18-days-voyage.jpg",
+    "Author":"Alexei Borodin",
+    "isFeatured": true
+  },
+  {
+    "id": "e4",
+    "title": "Architecturals",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "April 9th 2020",
+    "image": "images/architecturals.jpg",
+    "Author":"Samantha Brooke",
+    "isFeatured": true
+  },
+  {
+    "id":"e5",
+    "title": "World Tour 2019",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "April 7th 2020",
+    "image": "images/world-tour.jpg",
+    "Author": "Timothy Wagner",
+    "isFeatured": true
+  },
+  {
+    "id": "e6",
+    "title": "Unforseen Corners",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "April 3rd 2020",
+    "image": "images/unforeseen-corners.jpg",
+    "Author":"William Malcolm",
+    "isFeatured": true
+  },
+  {
+    "id": "e7",
+    "title": "King on Africa: Part II",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 29th 2020",
+    "image": "images/king-on-africa.jpg",
+    "Author":"Tim Hillenburg",
+    "isFeatured": true
+  },
+  {
+    "id": "e8",
+    "title": "The Trip to Nowhere",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "April 21st 2020",
+    "image": "images/trip-to-nowhere.jpg",
+    "Author":"Felicia Rourke",
+    "isFeatured": true
+  },
+  {
+    "id":"e9",
+    "title": "Rage of The Sea",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 19th 2020",
+    "image": "images/rage-of-the-sea.jpg",
+    "Author": "Mohammed Abdul",
+    "isFeatured": true
+  },
+  {
+    "id": "e10",
+    "title": "Running Free",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 16th 2020",
+    "image": "images/running-free.jpg",
+    "Author":"Michelle",
+    "isFeatured": true
+  },
+  {
+    "id": "e11",
+    "title": "Behind the Waves",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 11th 2020",
+    "image": "images/behind-the-waves.jpg",
+    "Author":"Lamarr Wilson",
+    "isFeatured": true
+  },
+  {
+    "id": "e12",
+    "title": "Calm Waters",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 9th 2020",
+    "image": "images/calm-waters.jpg",
+    "Author":"Samantha Brooke",
+    "isFeatured": true
+  },
+  {
+    "id":"e13",
+    "title": "The Milky Way",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 5th 2020",
+    "image": "images/milky-way.jpg",
+    "Author": "Benjamin Cruz",
+    "isFeatured": true
+  },
+  {
+    "id": "e14",
+    "title": "Night at The Dark Forest",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 4th 2020",
+    "image": "images/dark-forest.jpg",
+    "Author":"Mohammed adbull",
+    "isFeatured": true
+  },
+  {
+    "id": "e15",
+    "title": "Somwarpet's Beauty",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "March 1st 2020",
+    "image": "images/somwarpet.jpg",
+    "Author":"Wilson",
+    "isFeatured": true
+  },
+  {
+    "id": "e16",
+    "title": "Land of Dreams",
+    "description":
+      "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+    "location": "My Street 12, 10115 Broke City",
+    "date": "February 25th 2020",
+    "image": "images/land-of-dreams.jpg",
+    "Author":"William Malcolm",
+    "isFeatured": true
+  }
+],
+  "info": [
+      {
+      "image":"images/responsive.svg",
+      "title":"100% Responsive",
+      "text":"No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+      },
+      {
+      "image":"images/no-limit.svg",
+      "title":"No Photo Upload Limit",
+      "text":"Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+      },
+      {
+      "image":"images/embed.svg",
+      "title":"Available to Embed",
+      "text":"Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+      },
+      {
+      "image":"images/custom.svg",
+      "title":"Custom Domain",
+      "text":"With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!"
+      },
+      {
+      "image":"images/boost.svg",
+      "title":"Boost Your Experience",
+      "text":"Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list."
+      },
+      {
+      "image":"images/drag.svg",
+      "title":"Drag & Drop Image",
+      "text":"Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories."
+      }
   ]
 }
