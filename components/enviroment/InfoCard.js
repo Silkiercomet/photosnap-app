@@ -5,7 +5,7 @@ const InfoCard = ({img = "/images/embed.svg", title = "Available to Embed", text
   return (
     <div className={style.card}>
         <figure>
-            <Image src={"/"+img} height={62} width={72} />
+            <Image layout="intrinsic" src={"/"+img} height={62} width={72} />
         </figure>
         <p className={style.header}>{title}</p>
         <p className={style.para}>{text}</p>
