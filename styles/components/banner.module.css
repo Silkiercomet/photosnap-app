@@ -1,4 +1,28 @@
 .banner{
     display: flex;
-    padding: 80px 40px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 80px;
+    background: url(/images/bg-beta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height:270px;
+    
+}
+.banner::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width:6px;
+    min-height: 100% ;
+    background: var(--gradient);
+}
+.header{
+    color: white;
+    font-size:40px;
+    max-width: 370px;
+    letter-spacing: 2.2px;
 }
