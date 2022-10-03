@@ -1,0 +1,42 @@
+.switch{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.switch__text{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+.switch__interact > *{
+    transition: 300ms ease-in-out;
+}
+.switch__interact{
+    position: relative;
+    width: 60px;
+    height: 30px;
+
+    border-radius: 50px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+
+
+}
+.switch__interact_button{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    transition: 300ms ease-in-out;
+    background-color: black;
+
+    position: absolute;
+
+}
+.switch__interact_active{
+    transform: translateX(30px);
+}
+.switch__interact_inactive{
+    transform: translateX(0px);
+}
