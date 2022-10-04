@@ -1,6 +1,6 @@
 import React from 'react'
 import Presentation from '../../components/enviroment/Presentation'
-import PricingCards from '../../components/enviroment/PricingCards'
+import PricingBoard from '../../components/enviroment/PricingBoard'
 import Switch from '../../components/microComponents/Switch'
 
 const Pricing = () => {
@@ -11,10 +11,7 @@ const Pricing = () => {
       text="Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos."
       img="/images/pricing-bg.jpg"
       />
-      <div>
-        <Switch />
-        <PricingCards />
-      </div>
+      <PricingBoard />
     </>
   )
 }
