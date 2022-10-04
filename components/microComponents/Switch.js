@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import style from "../../styles/components/switch.module.css"
-const Switch = () => {
-  const [isYearly, setIsYearly] = useState(false)
+const Switch = ({isYearly, setIsYearly}) => {
+
   const handleClick = () => {
     setIsYearly(!isYearly)
   }

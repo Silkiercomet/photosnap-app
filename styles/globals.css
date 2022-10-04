@@ -69,5 +69,11 @@ a {
   justify-content: center;
   align-items: center;
 }
+.gridPrice > *{
+  column-gap: 30px;
+  max-width: 1125px;
+  padding: 0 25px;
+  margin: 35px auto;
+}
 
 
