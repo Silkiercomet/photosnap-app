@@ -1,0 +1,30 @@
+#comparetable{
+            margin-block: 90px;
+}
+.header{
+    font-size: 40px;
+    text-align: center;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+
+    max-width: 1000px;
+    margin-inline: auto;
+    font-size: 14px;
+    margin-block: 20px
+}
+.table__header > td {
+    border-bottom: 1px solid;
+    padding: 15px;
+}
+.table__header > td:not(:first-child) {
+    text-align: center;
+}
+.table__item > td:not(:first-child) {
+    text-align: center;
+}
+.table__item > td{
+    padding: 15px;
+    border-bottom: 1px solid var(--gray);
+}
