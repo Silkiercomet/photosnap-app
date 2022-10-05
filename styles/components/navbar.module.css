@@ -66,14 +66,14 @@
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
-
+    padding: 8px 0 14px;
 }
 .inactive{
-    transform: translateY(100px);
+    transform: translateY(120px);
 
 }
 .active{    
-    transform: translateY(-100px);
+    transform: translateY(-120px);
 
 }
 
