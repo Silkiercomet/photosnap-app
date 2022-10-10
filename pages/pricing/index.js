@@ -1,7 +1,6 @@
 import React from 'react'
 import Presentation from '../../components/enviroment/Presentation'
 import PricingBoard from '../../components/enviroment/PricingBoard'
-import Switch from '../../components/microComponents/Switch'
 
 const Pricing = () => {
   return (

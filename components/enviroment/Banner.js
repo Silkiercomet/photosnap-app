@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className={style.banner}>
         <header>
-            <h4 className={style.header}>WE'RE IN BETA.
+            <h4 className={style.header}>WE&apos;RE IN BETA.
 GET YOUR INVITE TODAY!</h4>
         </header>
         <ArrowButton isBlack={false} text="Get an invite" />
