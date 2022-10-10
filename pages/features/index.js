@@ -11,7 +11,7 @@ const Features = (props) => {
     <Presentation header = "FEATURES" text = 'We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.' img = "/images/features-bg.jpg" />
     <div style={{maxWidth : "1100px", margin: "40px auto"}}>
     <Grid>
-     {props.info.map((e,i) => <InfoCard img={e.image} title={e.title} text={e.text} />)}
+     {props.info.map((e,i) => <InfoCard key={i} img={e.image} title={e.title} text={e.text} />)}
     </Grid>
     </div>
     <Banner />
