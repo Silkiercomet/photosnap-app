@@ -37,14 +37,14 @@ export default function Home(props) {
       </main>
       <div style={{ maxWidth: "1800px", margin: "40px auto" }}>
         <Grid>
-          {props.info.map((e,i) => <InfoCard img={e.image} title={e.title} text={e.text} />)}
+          {props.info.map((e,i) => <InfoCard key={i} img={e.image} title={e.title} text={e.text} />)}
         </Grid>
       </div>
     </>
   );
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
   const filepath = getPath()
   const data = getData(filepath)
 
