@@ -27,6 +27,7 @@
 
 }
 .footer__left_social > li{
+    position: relative;
     background-repeat: no-repeat;
     background-position: left;
     max-width: 25px;
@@ -36,36 +37,77 @@
     transition: 200ms ease-in-out;
 
 }
+.footer__left_social > li::after{
+    content: "";
+
+    position: absolute;
+    min-width: 25px;
+    min-height: 25px;
+    mix-blend-mode: multiply;
+    background-position: left;
+    background-repeat:no-repeat;
+
+    opacity: 0;
+    transition: 300ms ease-in-out;
+}
+.footer__left_social > li:hover::after{
+    opacity: 1;
+}
+
 .footer__left_social li:nth-child(1){
+
     background-image: url("/images/white-FB.svg");
 }
-.footer__left_social li:nth-child(1):hover{
+
+.footer__left_social li:nth-child(1)::after{
     background-image: url("/images/facebook.svg");
 }
+
+
+
 .footer__left_social li:nth-child(2){
     background-image: url("/images/white-YT.svg");
 }
-.footer__left_social li:nth-child(2):hover{
+
+.footer__left_social li:nth-child(2)::after{
     background-image: url("/images/youtube.svg");
 }
+
+
+
 .footer__left_social li:nth-child(3){
     background-image: url("/images/white-Tw.svg");
 }
-.footer__left_social li:nth-child(3):hover{
+
+.footer__left_social li:nth-child(3)::after{
     background-image: url("/images/twitter.svg");
 }
+
+
+
 .footer__left_social li:nth-child(4){
     background-image: url("/images/white-Pin.svg");
 }
-.footer__left_social li:nth-child(4):hover{
+
+.footer__left_social li:nth-child(4)::after{
     background-image: url("/images/pinterest.svg");
 }
+
+
+
 .footer__left_social li:nth-child(5){
     background-image: url("/images/white-Insta.svg");
 }
-.footer__left_social li:nth-child(5):hover{
+
+.footer__left_social li:nth-child(5)::after{
     background-image: url("/images/instagram.svg");
 }
+
+
+
+
+
+
 .footer__left_navbar ul > li{
     color:white;
     text-transform: uppercase;
@@ -78,6 +120,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    margin-left: 25px;
 }
 .right{
     display: flex;
@@ -103,6 +146,7 @@
         padding-bottom: 40px;
         padding-left: 0;
         text-align: center;
+        margin-left: 0;
     }
     .right{
         justify-content: center;
