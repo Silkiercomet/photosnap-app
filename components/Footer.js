@@ -1,6 +1,7 @@
 import style from "../styles/components/footer.module.css"
 import ArrowButton from "./microComponents/ArrowButton"
 import Image from "next/image"
+import Link from "next/link"
 const Footer = () => {
   return (
     <footer className={style.footer}>
@@ -22,10 +23,10 @@ const Footer = () => {
             
             <nav className={style.footer__left_navbar}>
             <ul>
-                <li>Home</li>
-                <li>Stories</li>
-                <li>Features</li>
-                <li>Pricing</li>
+                <li><Link href="/stories">Home</Link></li>
+                <li><Link href="/stories">Stories</Link></li>
+          <li><Link href="/features">Features</Link></li>
+          <li><Link href="/pricing">Pricing</Link></li>
             </ul>
         </nav>
         </div>
